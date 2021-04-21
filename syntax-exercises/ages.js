@@ -13,3 +13,4 @@ function printAges(age) {
         console.log("out of bound");
     }
 }
+printAges(13);

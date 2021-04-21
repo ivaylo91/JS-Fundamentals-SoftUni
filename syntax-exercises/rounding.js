@@ -8,3 +8,4 @@ function round(number,precision){
 
     console.log(Number(number));
 }
+round(3.5,2);
