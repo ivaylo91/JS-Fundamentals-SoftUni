@@ -6,5 +6,5 @@ function rotate(arr, n) {
     console.log(arr.join(" "));
 }
 
-rotate([2, 4, 15, 31], 5)
+rotate([2, 4, 15, 31], 5);
 

@@ -1,18 +1,11 @@
-function maxNumber(arr) {
-    let topIntegers = [];
+function findMax(arr) {
+    let maxElement = arr[0];
     for (let i = 0; i < arr.length; i++) {
-        let isTop = true;
         for (let j = i + 1; j < arr.length; j++) {
-            if (arr[i] <= arr[j]) {
-                isTop = false;
-                break;
-            }
-        }
-        if (isTop) {
-            topIntegers.push(arr[i]);
+
         }
     }
-    console.log(topIntegers.join(" "));
+    console.log(arr.join(" "));
 }
 
-maxNumber([1, 4, 3, 2]);
+findMax([1, 4, 3, 2]);
